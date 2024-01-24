@@ -100,6 +100,7 @@ p {
     font-size: large;
 }
 
+
 section div.bloque {
     background-color: rgba(199, 216, 191, 0.349);
     margin: auto;
@@ -108,7 +109,7 @@ section div.bloque {
     display: grid;
     grid-template-columns: 5fr 1fr;
     gap: 10px
-
+    
 }
 .imagen {
     grid-column: 2/-1;
@@ -124,18 +125,20 @@ img {
     align-items: center;
 }
 
+.servicios{
+    width: 80%;
+    margin: auto;
+}
 .imagen2{
     margin: 30px auto 10px auto;
-    width: 950px;
 }
-.opciones{
+.opciones{    
     display: flex;
-    gap: 100px;
+    gap: 5%;
     justify-content: center;
    
 }
 .opciones div {
-   width: 250px;
    padding: 20px 10px 10px 10px ;
    border-radius: 10px;
    background-color: rgba(199, 216, 191, 0.349);
