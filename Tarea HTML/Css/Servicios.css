@@ -7,7 +7,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 260px 1fr 100px;
-    background: #dedede;
     height: 100vh;
     grid-template-areas: "head head head head"
                          "main main main main"
@@ -34,8 +33,9 @@
 
  header img {
     grid-column: 1/2;
-     width: 200px;
-     height: 200px;
+    margin: 10px 10px 10px 20px;
+     width: 180px;
+     height: 180px;
  }
  header h1 {
     color: white;
@@ -87,19 +87,25 @@
 }
 
 .cabecera div{
-    padding: 0px 30px 0px 30px;
-    
+    background-color: rgba(199, 216, 191, 0.349);
+    padding: 0px 50px 50px 50px;
 }
+
 h2 {
-    padding: 30px 0px 30px 0px;
+    margin-top: 10px;
+    padding: 50px 0px 30px 0px;
     text-align: center;
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
 }
 .servicios {
-    
     padding-bottom: 90px;
 }
 
 #f1{
+    margin-top: 30px;
     display: flex;
     gap: 75px;
     flex-direction: row;
@@ -143,6 +149,9 @@ h2 {
     bottom: 0;
     position: fixed;
     grid-area: foot;
+}
+footer p{
+    font-size: medium;
 }
 footer img {
     margin: 10px;

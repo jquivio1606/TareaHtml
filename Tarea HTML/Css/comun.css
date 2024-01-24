@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 260px 1fr 100px;
     background: #dedede;
-    height: 100vh;
+    filter: brightness(50%);
     grid-template-areas: "head head head head"
                          "main main main main"
                          "foot foot foot foot";
