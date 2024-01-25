@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Reserva2.css">
+    <title>Hotel Reserva</title>
+</head>
+<body>
+
+    <header>
+        <h1>Jardines Del Sueño a Pasos</h1>
+        <p>¡Experimenta nuestras actividades con entusiamo y ganas!</p>
+    </header>
+
+    <section class="reserva-section">
+        <h2>Realizar Reserva</h2>
+        </br>
+        <form id="reserva-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="fecha-reserva">Fecha de Reserva:</label>
+            <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+
+            <label for="hora-reserva">Hora de Reserva:</label>
+            <input type="time" id="hora-reserva" name="hora-reserva" required>
+
+            <label for="actividad">Tipo de Actividad:</label>
+            <select id="actividad" name="actividad" required>
+                <option value="PaseosporPrados">Paseos por Prados </option>
+                <option value="PaseosporelBosque ">Paseos por el Bosque</option>
+                <option value="PaseosporelBosqueRio">Paseos por el Bosque-Río</option>
+            </select>
+
+            <button type="submit">Reservar Ahora</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jardines Del Sueño. Todos los derechos reservados.</p>
+        <p> Teléfono: 666 666 666 </p>
+        <p> Correo electronico: jardindelsueño@gmail.com </p>
+        <p> Dirección: Micasa  </p>
+    </footer>
+
+</body>
+</html>
