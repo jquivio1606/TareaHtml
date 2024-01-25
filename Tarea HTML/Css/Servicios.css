@@ -98,31 +98,13 @@ h2 {
     font-size: xx-large;
 }
 p{
-    font-size: x-large;
+    font-size: large;
 }
 .servicios {
     padding-bottom: 90px;
 }
 
-#f1{
-    margin-top: 30px;
-    display: flex;
-    gap: 75px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
-}
-#f1 div img {
-    transition: filter 0.3s ease-in-out;
-    border-radius: 10px;
-    width: 200px;
-    height: 125px;
-}
-#f1 div img:hover {
-    filter: brightness(50%);
-}
+#f1,
 #f2 {
     margin: 30px 0px 30px 0;
     display: flex;
@@ -132,12 +114,16 @@ p{
     align-items: center;
     align-content: center;
 }
-#f2 div img {
+
+#f1 div img,
+#f2 div img  {
     transition: filter 0.3s ease-in-out;
     border-radius: 10px;
     width: 200px;
     height: 125px;
 }
+
+#f1 div img:hover,
 #f2 div img:hover {
     filter: brightness(50%);
   }
