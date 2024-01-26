@@ -107,7 +107,7 @@ section div.bloque {
     width: 80%;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    gap: 10px
+    gap: 10px;
     
 }
 .imagen {
@@ -155,17 +155,13 @@ img {
     transition: 0.7s;
     background: rgb(57, 117, 91);
 }
-
-.botonSubir {
+.botonSubir img {
     position: fixed;
     bottom: 95px;
     left: 10px;
-}
-.botonSubir img {
     transition: filter 0.5s ease-in-out;
     border-radius: 10px;
     width: 8%;
-    height: 8%;
 }
 .botonSubir img:hover {
     filter: brightness(60%);

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Css/Reservas/Reserva.css">
+    <title>Hotel Reserva</title>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Jardines Del Sueño a Caballo</h1>
+        <p>¡Experimenta nuestras actividades con entusiamo!</p>
+    </header>
+
+    <section class="reserva-section">
+        
+        </br>
+        <form id="reserva-form">
+            <fieldset>
+                <legend> <h2> Realizar Reserva</h2> </legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Escribe aquí tu nombre.">
+    
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="+00 000 00 00 00">
+    
+                <label for="fecha-reserva">Fecha de Reserva:</label>
+                <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+    
+                <label for="hora-reserva">Hora de Reserva:</label>
+                <input type="time" id="hora-reserva" name="hora-reserva" required>
+
+                <label for="opciones">¿Qué desea reservar?</label>
+                <select id="opciones" name="opciones" required>
+                    <option value="Principiantes">Habitaciones de Hotel</option>
+                    <option value="Experimentados ">Restaurante</option>
+                    <option value="Expertos">Spa</option>
+                    <option value="Experimentados ">Gimnasio</option>
+                    <option value="Principiantes">Montar a caballo</option>
+                    <option value="Expertos">Senderismo</option>
+                    <option value="Principiantes">Visita Pueblo</option>
+                </select>
+                <label for="seleccion"> Soy:  </label> <br>
+                <input type="radio" name="sel1" value="seleccion_unica" value="seleccion2"> Familia Numerosa </checkbox>
+                <input type="radio" name="sel1" value="seleccion_unica" value="seleccion2"> Discapacitado/Minusválido </checkbox>
+                <input type="radio" name="sel1" value="seleccion_unica" value="seleccion2"> Mayor de 65 años </checkbox>
+                
+                <br>
+                <br>
+                <button type="submit" value="Continuar">Continuar</button>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jardines Del Sueño. Todos los derechos reservados.</p>
+        <p> Teléfono: 666 666 666 </p>
+        <p> Correo electronico: jardindelsueño@gmail.com </p>
+        <p> Dirección: Micasa  </p>
+        
+    </footer>
+
+</body>
+</html>
