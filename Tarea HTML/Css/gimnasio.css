@@ -25,7 +25,7 @@ color: white;
     background:  rgb(152, 187, 172);
     grid-area: head;
     width: 100vw;
-    background-image: url("../imagenes/FotoHotel2\(1\).png");
+    background-image: url("../Imágenes/FotoHotel2.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
