@@ -1,5 +1,4 @@
 /* NO TOCAR ESTE ARCHIVO, SOLO ENLAZARLO EN EL HEAD DEL HTML*/
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 260px 1fr 100px;
-    background: #dedede;
-    filter: brightness(50%);
     grid-template-areas: "head head head head"
                          "main main main main"
                          "foot foot foot foot";
@@ -97,4 +94,7 @@ footer img {
     width: 70px;
     height: 70px;
     float: right;
+}
+footer p{
+    font-size: medium;
 }
