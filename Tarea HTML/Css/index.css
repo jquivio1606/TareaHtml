@@ -38,7 +38,7 @@ body {
 
 .bienvenido-border {
   border: 50px solid transparent;
-  border-image: url(../Imágenes/meander_152x152_border-image.svg) 50 round round;
+  border-image: url(../Imágenes/Index/meander_152x152_border-image.svg) 50 round round;
 }
 
 .main-bienvenido p {
@@ -67,7 +67,7 @@ body {
 }
 
 .main-hotel {
-  background-image: url(../Imágenes/main-habitaciones-1.jpg);
+  background-image: url(../Imágenes/Index/main-habitaciones-1.jpg);
   background-size: cover;
   grid-area: hotel;
   min-width: 300px;
@@ -78,19 +78,19 @@ body {
 }
 
 .main-restaurante {
-  background-image: url(../Imágenes/main-restaurante-1.jpg);
+  background-image: url(../Imágenes/Index/main-restaurante-1.jpg);
   background-size: cover;
   grid-area: restaurante;
 }
 
 .main-instalaciones {
-  background-image: url(../Imágenes/main-instalaciones-1.jpg);
+  background-image: url(../Imágenes/Index/main-instalaciones-1.jpg);
   background-size: cover;
   grid-area: instalaciones;
 }
 
 .main-entorno {
-  background-image: url(../Imágenes/main-entornos-1.jpg);
+  background-image: url(../Imágenes/Index/main-entornos-1.jpg);
   background-size: cover;
   grid-area: entorno;
 }
@@ -142,7 +142,7 @@ body {
 
 .separator-border {
   border-bottom: 50px solid red;
-  border-image: url(../Imágenes/meander_152x152_border-image.svg) 50 round round;
+  border-image: url(../Imágenes/Index/meander_152x152_border-image.svg) 50 round round;
 }
 
 
