@@ -6,6 +6,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background:  rgb(207, 229, 220);
+    color: #214429;
 }
 
 header {
@@ -53,7 +54,7 @@ img:hover {
 }
 
 footer {
-   background-color: rgb(152, 187, 172);
+    background-color: rgb(152, 187, 172);
     color: #fff;
     text-align: center;
     padding: 10px;
