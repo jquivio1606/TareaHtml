@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../Css/Reservas/reservagimnasio.css">
+    <link rel="stylesheet" href="../../Css/Reservas/reservaIndividual.css">
     <title>Hotel Reserva</title>
 </head>
 <body>
@@ -15,22 +15,29 @@
     </header>
 
     <section class="reserva-section">
-        <h2>Realizar Reserva</h2>
-        <br>
+        
         <form id="reserva-form">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="telefono">Número de Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-
-            <label for="fecha-reserva">Fecha de Reserva:</label>
-            <input type="date" id="fecha-reserva" name="fecha-reserva" required>
-
-            <label for="hora-reserva">Hora de Reserva:</label>
-            <input type="time" id="hora-reserva" name="hora-reserva" required>
             
-            <label for="actividad">Tipo de Actividad:</label>
+            <fieldset>
+                <legend> <h2>Realizar Reserva</h2> </legend>
+                <br>
+                <label for="nombre">Nombre:</label> <br>
+                <input type="text" id="nombre" name="nombre" required placeholder="Escribe aquí tu nombre.">
+                <br>
+                <label for="numero"> Edad </label><br>
+                <input type="number" name="numero" required placeholder="Menores de 10 años no pueden entrar en el Gimnasio"/>
+                <br>
+
+                <label for="telefono">Número de Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" required placeholder="+00 000 00 00 00">
+                <br>
+                <label for="fecha-reserva">Fecha de Reserva:</label><br>
+                <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+                <br>
+                <label for="hora-reserva">Hora de Reserva:</label><br>
+                <input type="time" id="hora-reserva" name="hora-reserva" required>
+                <br>
+                <label for="actividad">Tipo de Actividad:</label>
             <select id="actividad" name="actividad" required>
                 <option value="YogaZen">Yoga Zen</option>
                 <option value="CardioIntenso ">Cardio Intenso</option>
@@ -39,8 +46,15 @@
                 <option value="BaileEnergetico">Baile Energético</option>
                 <option value="MeditacionGuiada">Meditación Guiada</option>
             </select>
+                <br>
 
-            <button type="submit">Reservar Ahora</button>
+                <label for="seleccion"> Pagar en el Hotel: </label><br>
+                <input class="select" type="radio" name="sel1" value="seleccion_unica" value="seleccion1"> Sí </checkbox> 
+                <input class="select" type="radio" name="sel1" value="seleccion_unica" value="seleccion1"> No </checkbox> <br>
+                <br>
+                <button type="submit"> Reservar Ahora </button>
+                <button type="reset"> Borrar datos </button>
+           </fieldset>
         </form>
     </section>
 

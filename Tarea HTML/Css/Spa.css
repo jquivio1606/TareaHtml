@@ -1,11 +1,3 @@
-
-a {
-    color: white; 
-}
-a:visited {
-    color: white;
-}
-
 h2 {
     padding: 30px 0px 30px 0px ;
     text-align: center;
@@ -15,9 +7,7 @@ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-p {
-    font-size: large;
-}
+
 
 section div.bloque {
     background-color: rgba(199, 216, 191, 0.349);
@@ -74,15 +64,46 @@ img {
     transition: 0.7s;
     background: rgb(57, 117, 91);
 }
-.botonSubir img {
-    position: fixed;
-    bottom: 95px;
-    left: 10px;
-    transition: filter 0.5s ease-in-out;
-    border-radius: 10px;
-    width: 8%;
-}
-.botonSubir img:hover {
-    filter: brightness(60%);
+
+@media (max-width: 1200px) {
+  
     
+    section div.bloque {
+        background-color: rgba(199, 216, 191, 0.349);
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px;
+        
+    }
+
+    .servicios{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    section div.bloque {
+        background-color: rgba(199, 216, 191, 0.349);
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .servicios{
+        width: 90%;
+        margin: auto;
+    }
+    .opciones{    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

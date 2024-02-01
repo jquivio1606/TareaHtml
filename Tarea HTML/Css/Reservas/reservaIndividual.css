@@ -1,0 +1,55 @@
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background:rgba(234, 255, 242, 0.349);
+}
+
+header {
+    background-color: rgb(152, 187, 172);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.reserva-section {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+input, label,select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.select{
+    width: auto;
+    margin: 20px 0px 0px 40px;
+
+}
+
+button {
+    background-color: rgb(152, 187, 172);
+    color: #fff;
+    border: 15px solid transparent;
+    border-image: url(../../Imágenes/index/meander_152x152_border-image.svg) 60 round round;
+    cursor: pointer;
+    margin: 30px;
+}
+
+button:hover {
+    background-color:  rgb(100, 155, 131);
+}
+
+footer {
+    background-color: rgb(152, 187, 172);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

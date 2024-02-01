@@ -8,21 +8,22 @@
 </head>
 <body>
 
+    
     <header>
-        <h1>Jardines Del Sueño a Pasos</h1>
-        <p>¡Experimenta nuestras actividades con entusiamo y ganas!</p>
+        <h1>Jardines Del Sueño a Caballo</h1>
+        <p>¡Experimenta nuestras actividades con entusiamo!</p>
     </header>
 
     <section class="reserva-section">
         <form id="reserva-form">
-            <fieldset>
+           <fieldset>
                 <legend> <h2>Realizar Reserva</h2> </legend>
                 <br>
                 <label for="nombre">Nombre:</label> <br>
                 <input type="text" id="nombre" name="nombre" required placeholder="Escribe aquí tu nombre.">
                 <br>
                 <label for="numero"> Edad </label><br>
-                <input type="number" name="numero" required placeholder="Introduce una edad"/>
+                <input type="number" name="numero" required placeholder="Menores de 10 años pagan la mitad"/>
                 <br>
 
                 <label for="telefono">Número de Teléfono:</label><br>
@@ -34,14 +35,16 @@
                 <label for="hora-reserva">Hora de Reserva:</label><br>
                 <input type="time" id="hora-reserva" name="hora-reserva" required>
                 <br>
-                <label for="actividad">Tipo de Actividad:</label>
+                <label for="actividad">Día a reservar:</label><br>
                 <select id="actividad" name="actividad" required>
-                    <option value="PaseosporPrados">Paseos por Prados </option>
-                    <option value="PaseosporelBosque ">Paseos por el Bosque</option>
-                    <option value="PaseosporelBosqueRio">Paseos por el Bosque-Río</option>
-                </select>
-                
-                <br>
+                    <option value="Dia">Lunes</option>
+                    <option value="Dia">Martes</option>
+                    <option value="Dia">Miércoles</option>
+                    <option value="Dia">Jueves</option>
+                    <option value="Dia">Viernes</option>
+                    <option value="Dia">Sábado</option>
+                    <option value="Dia">Domingo</option>
+                </select><br>
 
                 <label for="seleccion"> Pagar en el Hotel: </label><br>
                 <input class="select" type="radio" name="sel1" value="seleccion_unica" value="seleccion1"> Sí </checkbox> 
@@ -50,6 +53,7 @@
                 <button type="submit"> Reservar Ahora </button>
                 <button type="reset"> Borrar datos </button>
            </fieldset>
+           
         </form>
     </section>
 
@@ -58,6 +62,7 @@
         <p> Correo electronico: jardinesdelsueño@gmail.com</p>
         <p> Dirección: Barbate 11160   </p>
         <p>&copy; 2024 Jardines Del Sueño. Todos los derechos reservados.</p>
+        
     </footer>
 
 </body>

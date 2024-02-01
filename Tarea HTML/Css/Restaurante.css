@@ -1,7 +1,10 @@
+.main-index{
+    padding-bottom: 200px;
+}
 .botones {
     display: flex;
     align-items: center;
-    height: 25vh;
+    height: 20vh;
     width: 16vh;
     justify-content: center;
     font-size: large;
@@ -21,6 +24,9 @@ h2,h3,h4{
 }
 div {
     text-align: center;
+}
+img{
+    width: 100%;
 }
 .dias {
     display: flex;

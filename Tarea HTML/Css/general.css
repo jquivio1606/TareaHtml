@@ -48,6 +48,7 @@ html {
      font-size: 3em;
      width: 85%;   
  }
+
 .main-nav {
     border-top: 1px solid rgba(255, 255, 255, .5);
     border-bottom: 1px solid rgba(255, 255, 255, .5);
@@ -61,8 +62,10 @@ html {
   /*  border: 10px solid #fff;*/
     display:flex;
     list-style: none;
+    width: 70%;
     justify-content: space-around;
     line-height: 50px;
+    margin: 0 auto;
 }
 
 .main-navbar-link {
@@ -80,19 +83,9 @@ html {
 }
 
 .main-index {
-    background:rgba(170, 201, 157, 0.349);
+    background:rgba(234, 255, 242, 0.349);;
    /* grid-column: 2/3;*/
     grid-area: main;
-    padding-bottom: 100px;
-}
-
-.main-footer {
-    background-color: rgb(152, 187, 172);
-    text-align: right;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    grid-area: foot;
 }
 
 .grid-container {
@@ -109,40 +102,51 @@ h2 {
     padding: 50px 0px 30px 0px;
     text-align: center;
     font-size: xx-large;
-    color: #214429;
 }
-
 p{
     font-size: x-large;
-    color: #214429;
+}
+.servicios {
+    padding-bottom: 90px;
 }
 
-a {
-    color: white; 
-    text-decoration: none;
+#f1{
+    margin-top: 30px;
+    display: flex;
+    gap: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
-a:visited {
-    color: white;
+#f1 div img {
+    transition: filter 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 200px;
+    height: 125px;
 }
-
-.back {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    height: 70px;
-    font-size: x-large;
+#f1 div img:hover {
+    filter: brightness(50%);
+}
+#f2 {
+    margin: 30px 0px 30px 0;
+    display: flex;
+    gap: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#f2 div img {
+    transition: filter 0.3s ease-in-out;
+    border-radius: 10px;
+    width: 200px;
+    height: 125px;
+}
+#f2 div img:hover {
+    filter: brightness(50%);
   }
-.back p {
-    width: 150px;
-    margin: 0 auto;
-    height: 50px;
-    background: rgba(4, 68, 47, 0.603);
-    color: #fff;
-    border: 10px solid #fff;
-    border-image: url(../Imágenes/index/meander_152x152_border-image.svg) 50 round round;
-    margin-bottom: 20px;
-}
 
 .main-footer {
     background-color: rgb(152, 187, 172);
@@ -154,11 +158,10 @@ a:visited {
 }
 footer p{
     font-size: medium;
-    color: white;
 }
 footer img {
     margin: 10px;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     float: right;
 }

@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Arial', sans-serif;
+    background:  rgb(207, 229, 220);
 }
 
 header {
@@ -20,12 +21,12 @@ main h1{
 }
 
 section {
-    background-color: rgb(23, 27, 24);
+    border: 50px solid transparent;
+    border-image: url(../../Imágenes/Index/meander_152x152_border-image.svg) 50 round round;
     display: flex;
     height: 500px;
     width: 80%;
     margin: auto;
-    padding: 20px;
     border-radius: 10px;
 }
 a {
@@ -52,7 +53,7 @@ img:hover {
 }
 
 footer {
-    background-color: #98BBAC;
+   background-color: rgb(152, 187, 172);
     color: #fff;
     text-align: center;
     padding: 10px;

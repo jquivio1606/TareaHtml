@@ -1,3 +1,7 @@
+section{
+    width: 90%;
+    margin: auto;
+}
 h2 {
     padding: 30px 0px 30px 0px ;
     text-align: center;
@@ -9,7 +13,6 @@ h3 {
 
 section div.bloque {
     background-color: rgba(199, 216, 191, 0.349);
-    margin: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
@@ -37,6 +40,7 @@ img {
     align-items: center;
     align-content: space-around;
     font-family: 'Cormorant SC', serif;
+    margin: auto;
 }
 .opciones div {
    padding: 15px 20px 50px 30px;
@@ -46,7 +50,7 @@ img {
    flex-direction: column;
    align-items: center;
    align-content: center;
-   margin: 0px 50px 0px 50px;
+   margin: 5%;
 }
 .boton{
     border: 1px solid black;
@@ -103,4 +107,27 @@ img {
     color: rgb(152, 187, 172);
     color: black;
 
+}
+
+@media (max-width: 768px) {
+    
+    section div.bloque {
+        background-color: rgba(199, 216, 191, 0.349);
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .servicios{
+        width: 90%;
+        margin: auto;
+    }
+    .opciones{    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }

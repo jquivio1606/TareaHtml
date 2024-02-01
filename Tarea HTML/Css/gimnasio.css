@@ -7,9 +7,6 @@ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-p {
-    font-size: large;
-}
 
 section div.bloque {
     background-color: rgba(199, 216, 191, 0.349);
@@ -77,4 +74,27 @@ img {
 .botonSubir img:hover {
     filter: brightness(60%);
     
+}
+
+@media (max-width: 768px) {
+    
+    section div.bloque {
+        background-color: rgba(199, 216, 191, 0.349);
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .servicios{
+        width: 90%;
+        margin: auto;
+    }
+    .opciones{    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
