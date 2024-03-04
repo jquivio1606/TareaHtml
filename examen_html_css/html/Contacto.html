@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        .formulario {
+            background-color: lightgray;
+            color: black;
+            width: 75%;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1.1em;
+        }
+        fieldset{
+            margin-top: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            gap: 5%;
+        }
+        input{
+            padding: 3px;
+        }
+        .botones{
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            
+        }
+        .enviar, .borrar {
+            background-color: darkblue;
+            color: white;
+            font-size: 1em;
+        }
+        .enviar:hover{
+            background-color: green;
+        }
+        .borrar:hover{
+            background-color: orangered;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cabecera">
+            <header>
+                <img src="../img/logo.png">
+                <h1> Aprendiendo HTML y CSS </h1>
+            </header>
+            <nav>
+                <img src="../img/icono1.png">
+                <a href="./inicio.html"> Inicio </a>
+                <img src="../img/icono2.png">
+                <a href="./Contacto.html"> Contacto </a>
+            </nav>
+        </div>
+
+        <main>
+            <h2>Contacto</h2>
+             <div class="formulario">
+                <form>
+                    <fieldset>
+                        <legend> Datos Personales </legend>
+                        <div>
+                            <label for="name"> Nombre </label>
+                            <input type="text" name="name" required placeholder="Introduzca su nombre">
+                        </div>
+                        <div>
+                            <label for="email"> Correo electrónico </label>
+                            <input type="email" name="email" required placeholder="tuemail@email.com">
+                        </div>
+                        <div>
+                            <label for="dni"> D.N.I </label>
+                            <input type="text" name="dni" required placeholder="99999999X">
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <legend> Datos del proyecto </legend>
+                        <div>
+                            <label for="select"> Estado actual del proyecto </label>
+                            <select name="select">
+                                <option value="1">Empezado</option>
+                                <option value="2">En proceso</option>
+                                <option value="3">Terminado</option>
+                              </select>
+                        </div>
+                        <div>
+                            <label for="fecha"> Fecha de ejecución </label>
+                            <input type="date" name="fecha">
+                        </div>
+                        <div>
+                            <label for="dni"> Duración aproximada(en semanas) </label>
+                            <input type="text" name="dni" >
+                        </div>
+                        <div>
+                            <label for="descripcion">Breve descripción del proyecto </label>
+                            <textarea type="text" name="descripcion" required></textarea>
+                        </div>
+                        <div>
+                            <label for="number"> Presupuesto aproximado (en €) </label>
+                            <input type="number" name="number">
+                        </div>
+                    </fieldset>
+                    <div class="botones">
+                        <input class="enviar" type="submit" value="Enviar">
+                        <input class="borrar" type="reset" value="Borrar datos">
+                    </div>
+                </form>
+            </div>
+            
+        </main>
+        <footer>
+            <p>  2024. Aprendiendo HTML y CSS </p>
+            <p> I.E.S. Trafalgar. Barbate </p>
+        </footer>
+    </div>
+</body>
+</html>
